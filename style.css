@@ -1,0 +1,79 @@
+@import url(https://db.onlinewebfonts.com/c/51ba22ae06790efd464bde752a2cd9d1?family=Flexo-Regular);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: #424242 url(./img/body_bg.png);
+    font-family:  "Flexo-Regular", Arial, sans-serif;
+    font-size: 1.6rem;
+    color: #fff;
+    height: 100%;
+    line-height: 1;
+}
+
+.pok-container{
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+}
+
+.bg-dark{
+    background-color: #1f1f1f;
+}
+
+.bg-grey{
+    background-color: #919191;
+}
+
+.bg-light-grey{
+    background-color: #313131;
+}
+
+.bg-dark-grey{
+    background-color: #282828;
+}
+
+.bg-dark-orange{
+    background-color: #e3350d;
+}
+
+.bg-light-orange{
+    background-color: #ee6b2f;
+}
+
+.bg-yellow{
+    background-color: #e6bc2f;
+}
+
+.bg-green{
+    background-color: #4dad5b;
+}
+
+.bg-light-blue{
+    background-color: #30a7d7;
+}
+
+.bg-dark-blue{
+    background-color: #1b53ba;
+}
+
+.bg-purple{
+    background-color: #b38aea;
+}
+
+.bg-brown{
+    background-color: #c7aa79;
+}
+
+.bg-pink{
+    background-color: #ff90c4;
+}
+
