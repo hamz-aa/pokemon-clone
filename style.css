@@ -1,0 +1,157 @@
+@import url(https://db.onlinewebfonts.com/c/51ba22ae06790efd464bde752a2cd9d1?family=Flexo-Regular);
+@import url(https://db.onlinewebfonts.com/c/d2d21cf0ee4c1d969d8a4dccc587ab26?family=Flexo-Medium);
+@import url(https://db.onlinewebfonts.com/c/6e1ef15c406d6f6aca64916d713fae18?family=Flexo-Bold);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: #424242 url(./img/body_bg.png);
+    font-size: 1.6rem;
+    height: 100%;
+    line-height: 1;
+}
+
+         /* Utility Classes */
+
+.poki-container{
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+}
+
+.bg-light{
+    background-color: #f5f5f5;
+}
+
+.bg-dark{
+    background-color: #1f1f1f;
+}
+
+.bg-grey{
+    background-color: #919191;
+}
+
+.bg-light-grey{
+    background-color: #313131;
+}
+
+.bg-dark-grey{
+    background-color: #282828;
+}
+
+.bg-dark-orange{
+    background-color: #e3350d;
+}
+
+.bg-light-orange{
+    background-color: #ee6b2f;
+}
+
+.bg-yellow{
+    background-color: #e6bc2f;
+}
+
+.bg-green{
+    background-color: #4dad5b;
+}
+
+.bg-light-blue{
+    background-color: #30a7d7;
+}
+
+.bg-dark-blue{
+    background-color: #1b53ba;
+}
+
+.bg-purple{
+    background-color: #b38aea;
+}
+
+.bg-brown{
+    background-color: #c7aa79;
+}
+
+.bg-pink{
+    background-color: #ff90c4;
+}
+
+.flexo-regular{
+    font-family: "Flexo-Regular", Arial, sans-serif;
+}
+
+.flexo-medium{
+    font-family: "Flexo-Medium", Arial, sans-serif;
+}
+
+.flexo-bold{
+    font-family:  "Flexo-Bold", Arial, sans-serif;
+}
+
+.roboto{
+    font-family: 'Roboto', Arial, sans-serif;;
+}
+
+.txt-light{
+    color: #fff;
+}
+
+.txt-dark{
+    color: #212121;
+}
+
+.txt-blue{
+    color: #162661;
+}
+
+.txt-purple{
+    color: #4b1aa6;
+}
+
+.txt-brown{
+    color: #965722;
+}
+
+.txt-orange{
+    color: #8f1c06;
+}
+
+.txt-pink{
+    color: #cf005b;
+}
+
+.txt-grey-1{
+    color: #898989ff;
+}
+
+.txt-grey-2{
+    color: #cccca7;
+}
+
+        /* upper nav  */
+
+.my-nav-upper{
+    height: 64px;
+    width: 100%;
+}
+
+.my-nav-upper .my-items{
+    list-style: none;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    padding: 0.5em 0;
+}
+
+.my-nav-upper .my-items li{
+    padding: 0 0.3em;
+    /* border: 2px solid black; */
+}
