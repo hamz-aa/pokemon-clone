@@ -207,7 +207,6 @@ body{
     width: 100%;
     padding-top: 1em;
     padding-left: 0.5em;
-    /* border: 1px solid red; */
 }
 
 .my-bottom-items li i{
@@ -220,45 +219,118 @@ body{
     text-align: center;
 }
 
-.my-bottom-items li:not(:first-child) p{
-    /* color: #464646; */
-}
-
 .my-bottom-items li a{
     text-decoration: none;
-    color: #464646;
+    color: #898989;
 }
 
 .my-bottom-items .item-1{
-    border-radius: 0 0 0 5px;
+    border-bottom: 7px solid #898989;
+    border-radius: 0 0 0 7px;
 }
 
-.my-bottom-items .item-2:hover{
-    background-color: #ee6b2f;
+.my-bottom-items .item-1 a{
     color: #fff;
 }
 
-.my-bottom-items .item-3:hover{
+.my-bottom-items .item-2{
+    border-bottom: 7px solid #e3350d;
+}
+
+.my-bottom-items .item-3{
+    border-bottom: 7px solid #ee6b2f;
+}
+
+.my-bottom-items .item-4{
+    border-bottom: 7px solid #e6bc2f;
+}
+
+.my-bottom-items .item-5{
+    border-bottom: 7px solid #4dad5b;
+}
+
+.my-bottom-items .item-6{
+    border-bottom: 7px solid #30a7d7;
+}
+
+.my-bottom-items .item-7{
+    border-bottom: 7px solid #1b53ba;
+    border-radius: 0 0 7px 0;
+}
+
+.my-bottom-items .item-2:hover,
+.my-bottom-items .item-2:hover a{
     background-color: #e3350d;
     color: #fff;
 }
 
-.my-bottom-items .item-4:hover{
+.my-bottom-items .item-3:hover,
+.my-bottom-items .item-3:hover a{
+    background-color: #ee6b2f;
+    color: #fff;
+}
+
+.my-bottom-items .item-4:hover,
+.my-bottom-items .item-4:hover a{
     background-color: #e6bc2f;
     color: #fff;
 }
 
-.my-bottom-items .item-5:hover{
+.my-bottom-items .item-5:hover,
+.my-bottom-items .item-5:hover a{
     background-color: #4dad5b;
     color: #fff;
 }
 
-.my-bottom-items .item-6:hover{
+.my-bottom-items .item-6:hover,
+.my-bottom-items .item-6:hover a{
     background-color: #30a7d7;
     color: #fff;
 }
 
-.my-bottom-items .item-7:hover{
+.my-bottom-items .item-7:hover,
+.my-bottom-items .item-7:hover a{
     background-color: #1b53ba;
     color: #fff;
+}
+
+        /* landing section */
+
+.landing-page-sec{
+    border-top: 2px solid #f0f0f0;
+}
+
+.landing-container{
+    background: #fff url(./img/container_bg.png);
+    display: block;
+    margin: 0 auto;
+    max-width: 1280px;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.user-menu{
+    position: fixed;
+    width: 59px;
+    height: 160px;
+    top: 185px;
+}
+
+.menu-1{
+    background-image: linear-gradient(to top, #54b564 85%, rgba(0,0,0,0) 20%);
+    height: 110px;
+    border-right: 2px solid black;
+    border-radius: 0 20px 0 0;
+}
+
+.menu-1 img:last-of-type{
+    width: 65%;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+}
+
+.menu-1 p{
+    font-size: 1.2rem;
+    margin-left: 0.8em;
 }
