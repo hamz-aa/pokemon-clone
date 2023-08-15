@@ -317,7 +317,7 @@ a{
 
 .user-menu{
     position: fixed;
-    z-index: 10;
+    z-index: 99;
     width: 59px;
     height: 160px;
     top: 185px;
@@ -431,7 +431,7 @@ a{
 .slider-section{
     height: 460px;
     margin-top: 3em;
-    border: 2px solid red;
+    position: relative;
 }
 
 .featured-pokemon{
@@ -439,11 +439,11 @@ a{
     height: 48px;
     background-color: #232323;
     color: #919191;
-    border-radius: 4px;
+    border-radius: 4px 4px 0 0;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 13em;
+    margin-left: 11em;
 }
 
 .featured-pokemon h1{
@@ -453,11 +453,13 @@ a{
 
 .slider-features{
     display: grid;
-    grid-template-columns: 200px 250px 360px 250px 200px;
+    grid-template-columns: 210px 250px 360px 250px 210px;
+    height: 100%;
 }
 
 .slider-features .slider-content{
-    border: 3px solid #232323;
+    border-top: 3px solid #232323;
+    height: 90%;
 }
 
 .slider-features img{
@@ -473,8 +475,16 @@ a{
     height: 60%;
 }
 
+.slider-content:not(:first-child) .slider-img-content,
+.slider-content:not(:first-child) .slider-text{
+    border-left: 3px solid #232323;
+}
+
 .slider-text{
     height: 30%;
+    background-color: #313131;
+    font-size: 2.5rem;
+    padding: 1.5em 1em;
 }
 
 .slider-img-content h1{
@@ -486,4 +496,82 @@ a{
 .slider-img-content img{
     opacity: 0.45;
     z-index: 2;
+}
+
+.slider-content:nth-child(3) img{
+    position: absolute;
+    bottom: 0;
+    opacity: 0.7;
+}
+
+.slider-content:nth-child(3) .slider-text{
+    height: 40%;
+    background-color: #232323;
+    border-radius: 0 0 5px 5px;
+}
+
+.slider-content:nth-child(3) .slider-text h1 span{
+    margin-left: 6.5em;
+}
+
+.slider-content:nth-child(3) .slider-text p{
+    font-size: 1.6rem;
+    padding-top: 1em;
+}
+
+.slider-content:nth-child(3) .slider-text p span:first-child{
+    margin-left: 4em;
+}
+
+.slider-content:nth-child(3) .slider-text p:first-of-type span:first-child{
+    background-color: #f16e57;
+    padding: 0.2em;
+    border-radius: 4px;
+}
+
+.slider-content:nth-child(3) .slider-text p:first-of-type span:last-child{
+    padding: 0.2em 0.8em;
+    background-color: #51c4e7;
+    border-radius: 4px;
+}
+
+        /* btn in slider section  */
+
+.slider-btn{
+    position: absolute;
+    z-index: 10;
+    opacity: 0;
+}
+
+.btn-1{
+    left: 70px;
+    bottom: 168px;
+}
+
+.btn-2{
+    right: 70px;
+    bottom: 168px;
+}
+
+.slider-section:hover .slider-btn{
+    opacity: 0.4;
+}
+
+.slider-section .slider-btn:hover{
+    opacity: 0.8;
+}
+
+        /* explore pokemon */
+
+.explore-pokemon{
+    width: 18%;
+    font-weight: 100;
+    height: 40px;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-left: 47em;
+    margin-top: 0.8em;
 }
