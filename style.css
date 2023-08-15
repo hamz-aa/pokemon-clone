@@ -310,7 +310,7 @@ a{
     display: block;
     margin: 0 auto;
     max-width: 1280px;
-    height: 400vh;
+    height: 500vh;
     overflow: hidden;
     position: relative;
 }
@@ -582,4 +582,89 @@ a{
     height: 1010px;
     background-color: #fff;
     margin-top: 45px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
 }
+
+.poki-content-2 .poki-layout{
+    width: 284px;
+    border-radius: 5px;
+}
+
+.poki-layout img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.poki-layout h1{
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+
+.poki-layout p{
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.poki-layout h1,
+.poki-layout p{
+    padding-top: 0.8em;
+    padding-left: 1em;
+    line-height: normal;
+}
+
+.poki-layout p{
+    padding-left: 1.3em;
+    padding-bottom: 1.2em;
+}
+
+.poki-layout-1{
+    margin-top: 8rem;
+    margin-left: 1.5rem;
+}
+
+.poki-layout-2{
+    margin-bottom: 9.7rem;
+    margin-left: 1.5rem;
+}
+
+.poki-layout-3{
+    margin-top: 3.5rem;
+}
+
+.poki-layout-4 h1{
+    font-size: 3rem;
+    text-align: left;
+}
+
+.poki-layout-6{
+    margin-top: 6rem;
+}
+
+.poki-layout-8 h1{
+    border-radius: 5px 5px 0 0;
+    padding-bottom: 0.5em;
+}
+
+.poki-layout-8 p{
+    border-radius: 0 0 5px 5px;
+    color: #0a2631;
+    position: relative;
+}
+
+.poki-layout-8:after{
+    content: '';
+    position: absolute;
+    margin-left: 265px;
+    margin-top: -18px;
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+    background-color: #fff;
+}
+
+.poki-layout-8{
+    overflow: hidden;
+}
+
