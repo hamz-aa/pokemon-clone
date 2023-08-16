@@ -101,7 +101,7 @@ body{
 }
 
 .roboto{
-    font-family: 'Roboto', Arial, sans-serif;;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 
 .txt-light{
@@ -143,6 +143,10 @@ body{
 a{
     text-decoration: none;
     color: inherit;
+}
+
+li{
+    list-style: none;
 }
 
         /* upper nav  */
@@ -310,7 +314,7 @@ a{
     display: block;
     margin: 0 auto;
     max-width: 1280px;
-    height: 500vh;
+    height: 405vh;
     overflow: hidden;
     position: relative;
 }
@@ -625,12 +629,22 @@ a{
 }
 
 .poki-layout-2{
-    margin-bottom: 9.7rem;
+    margin-bottom: 13.6rem;
     margin-left: 1.5rem;
+    background-color: #b38aea;
 }
 
 .poki-layout-3{
     margin-top: 3.5rem;
+}
+
+.poki-layout-3 p{
+    color: #cccccc;
+}
+
+.poki-layout-4{
+    margin-top: -10rem;
+    margin-bottom: -10rem;
 }
 
 .poki-layout-4 h1{
@@ -638,8 +652,29 @@ a{
     text-align: left;
 }
 
+.poki-layout-5{
+    margin-bottom: 8rem;
+}
+
 .poki-layout-6{
     margin-top: 6rem;
+    background-color: #a4a4a4;
+}
+
+.poki-layout-6 h1{
+    color: #212121;
+}
+
+.poki-layout-6 p{
+    color: #616161;
+}
+
+.poki-layout-7 p{
+    color: #cccccc;
+}
+
+.poki-layout-8{
+    margin-bottom: 3rem;
 }
 
 .poki-layout-8 h1{
@@ -668,3 +703,22 @@ a{
     overflow: hidden;
 }
 
+        /* footer section  */
+
+.poki-footer{
+    height: 265px;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+}
+
+.footer-wrapper li{
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.poki-company>ul li:first-child{
+    font-family: "Flexo-Medium", Arial, sans-serif;
+}
