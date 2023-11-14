@@ -314,7 +314,7 @@ li{
     display: block;
     margin: 0 auto;
     max-width: 1280px;
-    height: 405vh;
+    height: 450vh;
     overflow: hidden;
     position: relative;
 }
@@ -544,7 +544,7 @@ li{
 }
 
 .slider-content:nth-child(3) .slider-text h1 span{
-    margin-left: 6.5em;
+    margin-left: 5em;
 }
 
 .slider-content:nth-child(3) .slider-text p{
